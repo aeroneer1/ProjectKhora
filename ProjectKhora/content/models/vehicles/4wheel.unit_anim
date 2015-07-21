@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "44a44f1b-1e40-4fa8-aee9-020a91665429"
+_name = "content/models/vehicles/4wheel"
+anim_controller_ref = {
+	_id = "78732b07-f507-439f-8215-09ada189e5c4"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "55647a74-5e9a-453d-a320-475f8cac72de"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "89e3b90e-9efd-4236-9cae-a4543ea793f2"
+	ref_filename = "content/models/vehicles/4wheel.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/vehicles/4wheel"

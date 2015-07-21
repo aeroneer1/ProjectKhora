@@ -1,0 +1,23 @@
+
+nodes = [
+	{
+		id = "726b2f83-f627-4168-be3f-ed2ed9b50f9a"
+		in_variables = {
+			resource = {
+				type = "string"
+			}
+		}
+		type = "material_resource_string"
+		variable_values = {
+			resource = "content/materials/rusted_steel"
+			resource_string = null
+		}
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

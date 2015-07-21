@@ -1,0 +1,33 @@
+
+autoload = true
+boot_script = "core/editor_slave/particle_editor"
+error_levels = {
+	fallback_resource_package = "core/fallback_resources/fallback_resources"
+	missing_material = "warning"
+	missing_resources = {
+		material = {
+			fallback_resource = "core/fallback_resources/missing_material"
+		}
+		shader = {
+			fallback_resource = "missing_shader"
+		}
+		texture = {
+			fallback_resource = "core/fallback_resources/missing_texture"
+		}
+		unit = {
+			fallback_resource = "core/fallback_resources/missing_unit"
+		}
+	}
+	semantic_mismatch = "warning"
+}
+steam = {
+	enabled = false
+}
+win32 = {
+	user_settings = ""
+}
+wwise = {
+	communication = {
+		enabled = false
+	}
+}

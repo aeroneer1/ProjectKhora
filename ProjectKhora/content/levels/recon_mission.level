@@ -1,0 +1,290 @@
+
+editor_metadata = {
+	Entities = [
+		{
+			id = "cc972d1d-84c7-4516-99e8-4ccf57b7f12d"
+			layer = "Default"
+			name = "midday_shading_environment"
+			prefab = {
+				"$resource_name" = "core/stingray_renderer/environments/midday/midday_shading_environment"
+				"$resource_type" = "entity"
+			}
+		}
+	]
+	Flow = {
+		Connections = [
+		]
+		Groups = [
+		]
+		Nodes = [
+		]
+	}
+	Groups = [
+	]
+	Layers = [
+		"Default"
+	]
+	LevelObjectSets = {
+		NestedSetNamesBySetName = {
+		}
+		ObjectIdsBySetName = {
+		}
+		VisibleSetNames = [
+		]
+	}
+	LevelReferences = [
+	]
+	LightBakeSettings = {
+		CustomFilterGain = 100
+		CustomQuality = 0.300000011920929
+		ExcludedObjectSets = [
+		]
+		Layers = [
+		]
+		LightmapType = "Standard"
+		QualityPreset = "Low"
+		TexelScale = 10
+	}
+	LuaPluginObjects = [
+	]
+	Navmeshes = [
+	]
+	Notes = [
+	]
+	ParticleEffects = [
+	]
+	PositionMarkers = [
+	]
+	Prototypes = [
+	]
+	Scatter = {
+		PoolSettings = {
+		}
+		ScatterData = {
+		}
+	}
+	Settings = {
+		FrozenLayers = [
+		]
+		HiddenLayers = [
+		]
+		HiddenObjects = [
+		]
+		LastHiddenObjects = [
+		]
+		ShadingEnvironment = ""
+		SkydomeUnit = "core/editor_slave/units/skydome/skydome"
+		SoundEnvironment = ""
+		TimpaniSoundEnvironment = "default"
+	}
+	Sounds = [
+	]
+	Splines = [
+	]
+	Stories = [
+	]
+	Triggers = [
+	]
+	Units = [
+		{
+			Cameras = {
+			}
+			Id = "5cb9a01d-30ec-4382-ad6e-db6dd5633797"
+			Layer = "Default"
+			Lights = {
+				light = {
+					Baked = false
+					BoxMax = {
+						X = 10
+						Y = 10
+						Z = 10
+					}
+					BoxMin = {
+						X = -10
+						Y = 0
+						Z = -10
+					}
+					CastShadows = true
+					Color = {
+						A = 255
+						B = 255
+						G = 255
+						R = 255
+					}
+					FalloffEnd = 8
+					FalloffExponent = 1
+					FalloffStart = 0
+					Intensity = 4
+					Material = ""
+					MaterialResource = ""
+					SpotAngleEnd = 60
+					SpotAngleStart = 0
+					Type = "directional"
+				}
+			}
+			Material = "core/units/light_source"
+			Materials = {
+			}
+			Name = "light_source"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 0
+				Y = 0
+				Z = 5
+			}
+			Rot = {
+				W = 0.707106781186547
+				X = -0.5
+				Y = 0.5
+				Z = 5.55111512312578E-17
+			}
+			Scl = {
+				X = 1
+				Y = 1
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "core/units/light_source"
+		}
+	]
+	Volumes = [
+	]
+}
+entities = [
+	{
+		id = "cc972d1d-84c7-4516-99e8-4ccf57b7f12d"
+		name = "midday_shading_environment"
+		prefab = {
+			"$resource_name" = "core/stingray_renderer/environments/midday/midday_shading_environment"
+			"$resource_type" = "entity"
+		}
+	}
+]
+flow = {
+	nodes = [
+	]
+}
+level_references = [
+]
+level_settings = {
+	num_background_units = 1
+	shading_environment = ""
+	sound_environment = ""
+	timpani_sound_environment = "default"
+}
+navmeshes = [
+]
+object_sets = {
+}
+particle_effects = [
+]
+prototypes = [
+]
+scatter = [
+]
+sounds = [
+]
+splines = [
+]
+stories = [
+]
+triggers = [
+]
+units = [
+	{
+		cameras = {
+		}
+		data = {
+		}
+		id = "5cb9a01d-30ec-4382-ad6e-db6dd5633797"
+		lights = {
+			light = {
+				baked = false
+				box_max = [
+					10
+					10
+					10
+				]
+				box_min = [
+					-10
+					0
+					-10
+				]
+				cast_shadows = true
+				color = [
+					1
+					1
+					1
+				]
+				falloff_end = 8
+				falloff_exponent = 1
+				falloff_start = 0
+				intensity = 4
+				material = ""
+				spot_angle_end = 1.0471975511966
+				spot_angle_start = 0
+				type = "directional"
+			}
+		}
+		material = "core/units/light_source"
+		materials = {
+		}
+		name = "light_source"
+		pos = [
+			0
+			0
+			5
+		]
+		rot = [
+			-0.5
+			0.5
+			5.55111512312578E-17
+			0.707106781186547
+		]
+		scl = [
+			1
+			1
+			1
+		]
+		type = "core/units/light_source"
+	}
+	{
+		cameras = {
+		}
+		data = {
+		}
+		id = "skydome-unit"
+		lights = {
+		}
+		material = "core/editor_slave/units/skydome/skydome"
+		materials = {
+		}
+		name = ""
+		pos = [
+			0
+			0
+			0
+		]
+		rot = [
+			0
+			0
+			0
+			1
+		]
+		scl = [
+			1
+			1
+			1
+		]
+		type = "core/editor_slave/units/skydome/skydome"
+	}
+]
+volumes = [
+]

@@ -1,0 +1,41 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	color_map = "content/models/vehicles/textures/veh_taxi_suv_body_color"
+	emissive_map = "content/models/vehicles/textures/veh_taxi_suv_body_emiss"
+	normal_map = "content/models/vehicles/textures/veh_taxi_suv_body_norm"
+}
+variables = {
+	base_color = {
+		type = "vector3"
+		value = [
+			0.5882353
+			0.5882353
+			0.5882353
+		]
+	}
+	emissive = {
+		type = "vector3"
+		value = [
+			0
+			0
+			0
+		]
+	}
+	roughness = {
+		type = "scalar"
+		value = 0.8999997
+	}
+	use_color_map = {
+		type = "scalar"
+		value = 1
+	}
+	use_emissive_map = {
+		type = "scalar"
+		value = 1
+	}
+	use_normal_map = {
+		type = "scalar"
+		value = 1
+	}
+}

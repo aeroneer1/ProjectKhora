@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "7d1f53c8-171f-475f-a89d-50b3399c3cd7"
+_name = "content/models/vehicles/shipyard/shipyard"
+anim_controller_ref = {
+	_id = "1cbf73b2-7e44-4e97-a461-ef3b544850c7"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "f5740d44-d2af-471b-88f8-65f166f10333"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "9aee807e-c3ff-4b23-876c-2213236cb468"
+	ref_filename = "content/models/vehicles/shipyard/shipyard.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/vehicles/shipyard_ship_only"

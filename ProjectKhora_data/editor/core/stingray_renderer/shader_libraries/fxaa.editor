@@ -1,0 +1,9 @@
+
+"#ID[f358bb3a7c1a7912]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "fxaa"
+	variables = [
+	]
+}

@@ -1,0 +1,55 @@
+
+materials = {
+	glass = "content/models/vehicles/glass"
+	veh_decal_taxi_suv_passide_mat = "content/models/vehicles/veh_decal_taxi_suv_passide_mat"
+	veh_taxi_suv_decal_driverside_mat = "content/models/vehicles/veh_taxi_suv_decal_driverside_mat"
+	veh_taxi_suv_interior_mat = "content/models/vehicles/veh_taxi_suv_interior_mat"
+	veh_taxi_suv_mat = "content/models/vehicles/veh_taxi_suv_mat"
+}
+renderables = {
+	car_body = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	wheel_frontdriver = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	wheel_frontpass = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	wheel_reardriver = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	wheel_rearpass = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

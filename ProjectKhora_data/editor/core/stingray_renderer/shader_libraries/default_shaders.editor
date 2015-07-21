@@ -1,0 +1,121 @@
+
+"#ID[009fc71abce17928]" = {
+	defines = [
+		""
+	]
+	semantics = [
+	]
+	shader = "gui"
+	variables = [
+	]
+}
+"#ID[0c1080a518f8b1bc]" = {
+	defines = [
+		""
+	]
+	semantics = [
+	]
+	shader = "line_object"
+	variables = [
+	]
+}
+"#ID[746a5ab0c09dcfd7]" = {
+	defines = [
+		"DEPTH_TEST_ENABLED"
+		"DIFFUSE_MAP"
+		"ONE_BIT_ALPHA"
+	]
+	semantics = [
+	]
+	shader = "gui"
+	variables = [
+		{
+			name = "Diffuse Map"
+			type = "resource"
+			variable = "diffuse_map"
+		}
+	]
+}
+"#ID[79885208c1b1d0d4]" = {
+	defines = [
+		"DEPTH_TEST_ENABLED"
+	]
+	semantics = [
+	]
+	shader = "gui"
+	variables = [
+	]
+}
+"#ID[7db5ab01bf054abd]" = {
+	defines = [
+		"DEPTH_TEST_DISABLED"
+	]
+	semantics = [
+	]
+	shader = "line_object"
+	variables = [
+	]
+}
+"#ID[8a99d66935036bbb]" = {
+	defines = [
+		"DIFFUSE_MAP"
+	]
+	semantics = [
+	]
+	shader = "gui"
+	variables = [
+		{
+			name = "Diffuse Map"
+			type = "resource"
+			variable = "diffuse_map"
+		}
+	]
+}
+"#ID[9fcfe12666dbf9a2]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "gui"
+	variables = [
+	]
+}
+"#ID[d32fb5caaebe093d]" = {
+	defines = [
+		"DEPTH_TEST_ENABLED"
+		"DIFFUSE_MAP"
+	]
+	semantics = [
+	]
+	shader = "gui"
+	variables = [
+		{
+			name = "Diffuse Map"
+			type = "resource"
+			variable = "diffuse_map"
+		}
+	]
+}
+"#ID[dc6740c8da950050]" = {
+	defines = [
+		"DIFFUSE_MAP"
+		"ONE_BIT_ALPHA"
+	]
+	semantics = [
+	]
+	shader = "gui"
+	variables = [
+		{
+			name = "Diffuse Map"
+			type = "resource"
+			variable = "diffuse_map"
+		}
+	]
+}
+"#ID[dd5541cf52ab122d]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "missing_shader"
+	variables = [
+	]
+}

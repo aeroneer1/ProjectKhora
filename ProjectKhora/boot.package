@@ -1,0 +1,11 @@
+// WILL AUTOLOAD ALL CONTENT AND SCRIPTS. PLEASE REMOVE TO CONTROL CONTENT LOADING
+* = ["*"]
+
+lua = ["boot"]
+material = ["core/performance_hud/gui"]
+physics_properties = ["global"]
+render_config = ["core/stingray_renderer/renderer"]
+shading_environment = ["core/stingray_renderer/environments/midday/midday"]
+unit = ["core/units/camera"]
+
+ADD_PACKAGES = ["core/gwnav/boot.package", "core/animation/boot.package"]

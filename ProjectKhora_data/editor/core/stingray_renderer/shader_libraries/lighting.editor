@@ -1,0 +1,124 @@
+
+"#ID[07897d11a9a0eebd]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "sun_shadow_mask"
+	variables = [
+	]
+}
+"#ID[0eaf6cdb9db8a9d8]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "brdf_lut"
+	variables = [
+	]
+}
+"#ID[1e7778818ab35abe]" = {
+	defines = [
+		"SPOT"
+		"SHADOW_MAPPING"
+	]
+	semantics = [
+	]
+	shader = "light_source"
+	variables = [
+	]
+}
+"#ID[4c1933af56f80f2c]" = {
+	defines = [
+		"OMNI"
+	]
+	semantics = [
+	]
+	shader = "light_source"
+	variables = [
+	]
+}
+"#ID[54c8c9ce40a9e1e1]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "linearize_depth"
+	variables = [
+	]
+}
+"#ID[a002d9c1718af7fe]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "global_lighting"
+	variables = [
+	]
+}
+"#ID[b4aa97fa058da013]" = {
+	defines = [
+		"SUN"
+	]
+	semantics = [
+	]
+	shader = "global_lighting"
+	variables = [
+	]
+}
+"#ID[c96f0ce80329ddd9]" = {
+	defines = [
+		"BOX"
+	]
+	semantics = [
+	]
+	shader = "light_source"
+	variables = [
+	]
+}
+"#ID[c9c26adcb6e96c69]" = {
+	defines = [
+		"SPOT"
+	]
+	semantics = [
+	]
+	shader = "light_source"
+	variables = [
+	]
+}
+"#ID[cf346110085bb4c9]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "sun_shadow_cutter"
+	variables = [
+	]
+}
+"#ID[d34067eb2c39af93]" = {
+	defines = [
+		"OMNI"
+		"SHADOW_MAPPING"
+	]
+	semantics = [
+	]
+	shader = "light_source"
+	variables = [
+	]
+}
+"#ID[dbfc86072724ced7]" = {
+	defines = [
+		"FILL"
+	]
+	semantics = [
+	]
+	shader = "sun_shadow_mask"
+	variables = [
+	]
+}
+"#ID[e2e91bc2ab110dc5]" = {
+	defines = [
+		"BOX"
+		"SHADOW_MAPPING"
+	]
+	semantics = [
+	]
+	shader = "light_source"
+	variables = [
+	]
+}

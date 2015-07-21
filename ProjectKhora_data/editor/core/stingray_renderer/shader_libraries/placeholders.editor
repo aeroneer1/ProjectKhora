@@ -1,0 +1,141 @@
+
+"#ID[708cf7702d33150e]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "base"
+	variables = [
+		{
+			max = [
+				1
+				1
+				1
+			]
+			min = [
+				0
+				0
+				0
+			]
+			name = "Diffuse RGB"
+			step = [
+				0.001
+				0.001
+				0.001
+			]
+			type = "vector3"
+			value = [
+				0.5
+				0.5
+				0.5
+			]
+			variable = "diffuse_rgb"
+		}
+	]
+}
+"#ID[a6619130d48d762d]" = {
+	defines = "CAMERA_LOCK_XY CAMERA_LOCK_Z DIFFUSE_MAP"
+	semantics = [
+	]
+	shader = "skydome"
+	variables = [
+	]
+}
+"#ID[babf855a542739e4]" = {
+	defines = "DIFFUSE_MAP"
+	semantics = [
+	]
+	shader = "base"
+	variables = [
+		{
+			max = [
+				1
+				1
+				1
+			]
+			min = [
+				0
+				0
+				0
+			]
+			name = "Diffuse RGB"
+			step = [
+				0.001
+				0.001
+				0.001
+			]
+			type = "vector3"
+			value = [
+				0.5
+				0.5
+				0.5
+			]
+			variable = "diffuse_rgb"
+		}
+	]
+}
+"#ID[d0036635993570cb]" = {
+	defines = "DOUBLE_SIDED"
+	semantics = [
+	]
+	shader = "base"
+	variables = [
+		{
+			max = [
+				1
+				1
+				1
+			]
+			min = [
+				0
+				0
+				0
+			]
+			name = "Diffuse RGB"
+			step = [
+				0.001
+				0.001
+				0.001
+			]
+			type = "vector3"
+			value = [
+				0.5
+				0.5
+				0.5
+			]
+			variable = "diffuse_rgb"
+		}
+	]
+}
+"#ID[e4ed3d5e49cf83b6]" = {
+	defines = "VC_COMPRESSED VC_TINT_RGB"
+	semantics = [
+	]
+	shader = "base"
+	variables = [
+		{
+			max = [
+				1
+				1
+				1
+			]
+			min = [
+				0
+				0
+				0
+			]
+			name = "Diffuse RGB"
+			step = [
+				0.001
+				0.001
+				0.001
+			]
+			type = "vector3"
+			value = [
+				0.5
+				0.5
+				0.5
+			]
+			variable = "diffuse_rgb"
+		}
+	]
+}

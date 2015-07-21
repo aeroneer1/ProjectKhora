@@ -1,0 +1,371 @@
+
+"#ID[03930c76b11a6764]" = {
+	defines = [
+		"SEPARABLE_BILINEAR_GAUSSIAN_5TAP_Y"
+	]
+	semantics = [
+	]
+	shader = "filter"
+	variables = [
+	]
+}
+"#ID[061f07a42b333682]" = {
+	defines = [
+		"HORIZONTAL_PASS"
+	]
+	semantics = [
+	]
+	shader = "depth_of_field"
+	variables = [
+	]
+}
+"#ID[1a547c29142b3803]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "calculate_coc"
+	variables = [
+	]
+}
+"#ID[2354ef51d0720111]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "bilateral_upsample"
+	variables = [
+	]
+}
+"#ID[2ea36bbc852a187b]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "mb_bake_velocity_depth"
+	variables = [
+		{
+			max = 5
+			min = 0
+			name = "Motion Blur Factor"
+			step = 0.001
+			type = "scalar"
+			value = 1
+			variable = "motion_blur_amount"
+		}
+	]
+}
+"#ID[37706b63371ad932]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "ssao_ao_pass"
+	variables = [
+	]
+}
+"#ID[3b320ba54747d2f9]" = {
+	defines = [
+		"SIMPLE"
+	]
+	semantics = [
+	]
+	shader = "temporal_aa"
+	variables = [
+	]
+}
+"#ID[3da25f9c386c10f8]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "scene_combine"
+	variables = [
+		{
+			max = 5
+			min = 0
+			name = "Scene Exposure"
+			step = 0.001
+			type = "scalar"
+			value = 1
+			variable = "exposure"
+		}
+	]
+}
+"#ID[408a3cc9c0561ed5]" = {
+	defines = [
+		"APPLY_BLOOM"
+	]
+	semantics = [
+	]
+	shader = "scene_combine"
+	variables = [
+		{
+			max = 5
+			min = 0
+			name = "Scene Exposure"
+			step = 0.001
+			type = "scalar"
+			value = 1
+			variable = "exposure"
+		}
+	]
+}
+"#ID[56c7b7de26499899]" = {
+	defines = [
+		"DOWNSAMPLE_MIP"
+	]
+	semantics = [
+	]
+	shader = "filter"
+	variables = [
+	]
+}
+"#ID[595617e1f5cff733]" = {
+	defines = [
+		"DOWNSAMPLE_2x2"
+	]
+	semantics = [
+	]
+	shader = "filter"
+	variables = [
+	]
+}
+"#ID[59c75728edeace8b]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "depth_fog"
+	variables = [
+	]
+}
+"#ID[60e7d68b9b06a034]" = {
+	defines = [
+		"DOWNSAMPLE_4x4"
+	]
+	semantics = [
+	]
+	shader = "filter"
+	variables = [
+	]
+}
+"#ID[666ca96ade6a933a]" = {
+	defines = [
+		"SEPARABLE_SSAO_BLUR_9TAP_X"
+	]
+	semantics = [
+	]
+	shader = "ssao_blur_pass"
+	variables = [
+	]
+}
+"#ID[7be6dfc7dbadde8f]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "mb_reconstruct_filter_blur"
+	variables = [
+	]
+}
+"#ID[7f5f9b0d377d6c79]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "mb_neighbour_max"
+	variables = [
+		{
+			max = 5
+			min = 0
+			name = "Motion Blur Factor"
+			step = 0.001
+			type = "scalar"
+			value = 1
+			variable = "motion_blur_amount"
+		}
+	]
+}
+"#ID[80e71cabd981ce33]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "ssao_mip_pass"
+	variables = [
+	]
+}
+"#ID[82425cefe155f3df]" = {
+	defines = [
+		"HORIZONTAL_PASS"
+	]
+	semantics = [
+	]
+	shader = "mb_tile_max"
+	variables = [
+	]
+}
+"#ID[82571a7f4bd05cf3]" = {
+	defines = [
+		"DESCENDING_DIAGONAL_PASS"
+	]
+	semantics = [
+	]
+	shader = "depth_of_field"
+	variables = [
+	]
+}
+"#ID[952858f7d670ffe0]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "temporal_aa"
+	variables = [
+	]
+}
+"#ID[95c1d22896941a76]" = {
+	defines = [
+		"APPLY_BLOOM"
+		"COLOR_GRADING"
+	]
+	semantics = [
+	]
+	shader = "scene_combine"
+	variables = [
+		{
+			max = 5
+			min = 0
+			name = "Scene Exposure"
+			step = 0.001
+			type = "scalar"
+			value = 1
+			variable = "exposure"
+		}
+	]
+}
+"#ID[9f4e5805e39f3450]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "ssao_merge_pass"
+	variables = [
+	]
+}
+"#ID[a51a9b052ab5593a]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "lens_effects"
+	variables = [
+	]
+}
+"#ID[a5d8722fc431c52d]" = {
+	defines = [
+		"ASCENDING_DIAGONAL_PASS"
+	]
+	semantics = [
+	]
+	shader = "depth_of_field"
+	variables = [
+	]
+}
+"#ID[a7695cc653966d30]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "ssr_ray_march_pass"
+	variables = [
+	]
+}
+"#ID[b1b7376c7b938eb1]" = {
+	defines = [
+		"VERTICAL_PASS"
+	]
+	semantics = [
+	]
+	shader = "mb_tile_max"
+	variables = [
+	]
+}
+"#ID[b319173aef7d4088]" = {
+	defines = [
+	]
+	semantics = [
+	]
+	shader = "blend_bloom"
+	variables = [
+	]
+}
+"#ID[cba8ff253d36eed6]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "merge_skydome_motion_vectors"
+	variables = [
+	]
+}
+"#ID[ce099bc4b838c029]" = {
+	defines = [
+		"COLOR_GRADING"
+	]
+	semantics = [
+	]
+	shader = "scene_combine"
+	variables = [
+		{
+			max = 5
+			min = 0
+			name = "Scene Exposure"
+			step = 0.001
+			type = "scalar"
+			value = 1
+			variable = "exposure"
+		}
+	]
+}
+"#ID[e2d24c20f1f5980d]" = {
+	defines = [
+		"SSR_LOW_QUALITY"
+	]
+	semantics = [
+	]
+	shader = "ssr_ray_march_pass"
+	variables = [
+	]
+}
+"#ID[e2f6b7b4dab9c9ee]" = {
+	defines = [
+		"SEPARABLE_SSAO_BLUR_9TAP_Y_PLUS_MERGE_AO_REPROJECTION"
+	]
+	semantics = [
+	]
+	shader = "ssao_blur_pass"
+	variables = [
+	]
+}
+"#ID[e99e431325a20e8f]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "ssr_hiz_pass"
+	variables = [
+	]
+}
+"#ID[eaaff13c6a1a5da9]" = {
+	defines = [
+		"SEPARABLE_BILINEAR_GAUSSIAN_5TAP_X"
+	]
+	semantics = [
+	]
+	shader = "filter"
+	variables = [
+	]
+}
+"#ID[fc1ded3ce2e5e200]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "bright_pass"
+	variables = [
+	]
+}
+"#ID[fcd6af7ab2f997a3]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "ssao_reprojection_pass"
+	variables = [
+	]
+}

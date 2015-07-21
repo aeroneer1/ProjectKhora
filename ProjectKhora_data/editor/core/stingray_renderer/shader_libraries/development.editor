@@ -1,0 +1,198 @@
+
+"#ID[02253369d7a8fe77]" = {
+	defines = [
+		"AO_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[036072a2b276f12c]" = {
+	defines = [
+		"ENCODE_RGBM"
+	]
+	semantics = [
+	]
+	shader = "copy"
+	variables = [
+	]
+}
+"#ID[1a3332064b76fef8]" = {
+	defines = [
+		"ALBEDO_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[3966cb523a8ae057]" = {
+	defines = [
+		"SPECULAR"
+	]
+	semantics = [
+	]
+	shader = "filter_cubemap"
+	variables = [
+	]
+}
+"#ID[415b2e213bef7d73]" = {
+	defines = [
+		"FILL_UNTOUCHED_PIXELS"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[503a14293bf26451]" = {
+	defines = [
+		"NORMAL_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[5f0f15532203cd14]" = {
+	defines = [
+		"METALLIC_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[693d9745af37d52a]" = {
+	defines = [
+		"AMBIENT_DIFFUSE_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[69df504a9a608830]" = {
+	defines = [
+		"ALPHA_TO_RGB"
+	]
+	semantics = [
+	]
+	shader = "copy"
+	variables = [
+	]
+}
+"#ID[7d215cedee11bd67]" = {
+	defines = [
+		"CUBE_CAPTURE"
+	]
+	semantics = [
+	]
+	shader = "copy"
+	variables = [
+	]
+}
+"#ID[9ac19b8fc8303367]" = {
+	defines = [
+		"SPECULAR_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[bedd5a64b097599d]" = {
+	defines = [
+		"ROUGHNESS_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[c2ed43e6cfc011b2]" = {
+	defines = [
+		"FLIP_Y"
+	]
+	semantics = [
+	]
+	shader = "copy"
+	variables = [
+	]
+}
+"#ID[c9d892ffec0747d6]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[d788f05279a9cb29]" = {
+	defines = [
+		"POINT_SAMPLER"
+	]
+	semantics = [
+	]
+	shader = "copy"
+	variables = [
+	]
+}
+"#ID[d996b7bdf040ea8b]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "copy"
+	variables = [
+	]
+}
+"#ID[daa387d642c0ce03]" = {
+	defines = [
+		"DIFFUSE"
+	]
+	semantics = [
+	]
+	shader = "filter_cubemap"
+	variables = [
+	]
+}
+"#ID[deff37e06040f071]" = {
+	defines = [
+		"SUN_SHADOW_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[e32cdb78d85bd1ca]" = {
+	defines = [
+		"VELOCITY_VISUALIZATION"
+	]
+	semantics = [
+	]
+	shader = "gbuffer_debug"
+	variables = [
+	]
+}
+"#ID[fe6df43f23b3bd16]" = {
+	defines = [
+		"CUBE_CAPTURE"
+		"ENCODE_RGBM"
+	]
+	semantics = [
+	]
+	shader = "copy"
+	variables = [
+	]
+}

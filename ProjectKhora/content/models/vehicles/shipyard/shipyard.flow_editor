@@ -1,0 +1,21 @@
+
+Connections = [
+]
+Groups = [
+]
+Nodes = [
+	{
+		Class = "Stingray.Flow.MaterialResourceString"
+		Id = "726b2f83-f627-4168-be3f-ed2ed9b50f9a"
+		NodeLocation = {
+			X = 260
+			Y = 200
+		}
+		Resource = {
+			Value = "content/materials/rusted_steel"
+		}
+		ResourceString = {
+		}
+		Width = 160
+	}
+]

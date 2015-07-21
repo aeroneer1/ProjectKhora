@@ -1,0 +1,78 @@
+
+"#ID[00a3efbb82d9abfa]" = {
+	defines = [
+		"SAMPLE_BASED"
+		"FLATTEN"
+	]
+	semantics = [
+	]
+	shader = "terrain_editor_brush"
+	variables = [
+	]
+}
+"#ID[09c42db2d41093d0]" = {
+	defines = [
+		"SAMPLE_HEIGHT"
+	]
+	semantics = [
+	]
+	shader = "terrain_editor_brush"
+	variables = [
+	]
+}
+"#ID[1c74b7f914eaebbf]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "terrain_editor_brush_marker"
+	variables = [
+	]
+}
+"#ID[85260e4ad1b9468c]" = {
+	defines = [
+		"SAMPLE_BASED"
+		"BOX_FILTER"
+	]
+	semantics = [
+	]
+	shader = "terrain_editor_brush"
+	variables = [
+	]
+}
+"#ID[9a9b303b49091205]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "terrain_editor_brush"
+	variables = [
+	]
+}
+"#ID[9c74a0b3e85f9597]" = {
+	defines = [
+		"SUB"
+	]
+	semantics = [
+	]
+	shader = "terrain_editor_brush"
+	variables = [
+	]
+}
+"#ID[cc48d212eb0fd710]" = {
+	defines = ""
+	semantics = [
+	]
+	shader = "terrain_decoration"
+	variables = [
+	]
+}
+"#ID[f6639a395fab766e]" = {
+	defines = [
+		"SAMPLE_BASED"
+		"SAMPLE"
+	]
+	semantics = [
+	]
+	shader = "terrain_editor_brush"
+	variables = [
+	]
+}
